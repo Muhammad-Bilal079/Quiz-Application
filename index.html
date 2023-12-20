@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>quiz application</title>
+</head>
+<body>
+    <div class="main">
+        <h2 style="padding: 50px;font-size: 40px;">Quiz Application </h2>
+        <div class="box">
+            <h2 style="font-weight: normal;" id="quesBox">1) this is my dummy quwstion</h2>
+            <div class="row">
+                <input type="radio" class="options" id="option1" name="option" value="a">
+                <label for="option1">option1</label>
+            </div>
+            <div class="row">
+                <input type="radio" class="options" id="option2" name="option" value="b">
+                <label for="option1">option2</label>
+            </div>
+            <div class="row">
+                <input type="radio" class="options" id="option3" name="option" value="c">
+                <label for="option1">option3</label>
+            </div>
+            <div class="row">
+                <input type="radio" class="options" id="option4" name="option" value="d">
+                <label for="option1">option4</label>
+            </div>
+            <button class="btn" onclick="submitQuiz()">Submit</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
